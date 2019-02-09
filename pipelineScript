@@ -1,0 +1,16 @@
+node{
+    
+	stage('build'){
+        
+		git 'https://github.com/vanithasomanna/DevOpsTraining.git'
+   
+		echo 'build complete'
+	}
+    
+	stage('deploy'){
+        
+		echo "Deployment in progress"
+    
+	}
+
+}
